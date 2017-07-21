@@ -47,14 +47,14 @@ html {
 
 .middle-buttons input {
   border-radius: 5px;
-  border: 1px solid rgb(221, 217, 217);
+  border: 1px solid rgb(245, 244, 244);
   position: absolute;
   margin: 20px auto;
   padding: 7px;
   bottom: -35px;
   color: rgb(96, 87, 87);
   font-weight: bold;
-  background-color: rgb(221, 217, 217);
+  background-color: rgb(245, 244, 244);
   font-size: 1.3em;
 
 }
@@ -101,7 +101,7 @@ html {
   font-size: 12px;
   position: fixed;
   bottom: 15px;
-  background-color: rgb(221, 217, 217);
+  background-color: rgb(245, 244, 244);
   color: rgb(96, 87, 87);
 
 }

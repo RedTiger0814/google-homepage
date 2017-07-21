@@ -1,0 +1,244 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Futura, "Product Sans", sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+p {
+  font-family: Futura, "Product Sans", sans-serif;
+  font-size: 12px;
+  left: 170px;
+}
+
+.menu {
+  left: 170px;
+}
+
+.site-header {
+  top: -130px;
+}
+
+.site-header, .site-footer {
+  background-color: rgb(245, 244, 244);
+  height: 140px;
+  z-index: -300;
+  position: relative;
+  width: 100%;
+}
+
+#grid-icon {
+  width: 25px;
+  display: block;
+  top: 35px;
+  right: 120px;
+  float: right;
+}
+
+#bell {
+  width: 20px;
+  display: block;
+  top: 37px;
+  right: 60px;
+  float: right;
+}
+
+#D {
+  background-color: purple;
+  padding: 7px;
+  border-radius: 100px;
+  color: white;
+  float: right;
+  top: 30px;
+}
+
+
+#google-logo {
+  width: 150px;
+  top: 20px;
+  left: 10px;
+}
+
+#search-box {
+  left: 20px;
+  width: 50%;
+  height: 20px;
+  top: -5px;
+  padding: 10px;
+  border: 2px solid rgb(245,244,244);
+  box-shadow: 8px rgba(0,0,0,0,0.2);
+  z-index: 20;
+}
+
+#microphone {
+  width: 18px;
+  height: 18px;
+  left: -35px;
+  z-index: 20;
+}
+
+#search-icon {
+  width: 15px;
+  height: 15px;
+  left: -30px;
+  top: -2px;
+  z-index: 20;
+}
+
+.header-buttons a, .dropbtn, .footer-buttons a {
+  z-index: 40;
+  top: 10px;
+  padding: 16px;
+  color: black;
+  font-size: 12px;
+  font-family: Futura, "Product Sans", sans-serif;
+}
+
+.dropbtn {
+  cursor: pointer;
+  background-color: rgb(245,244,244);
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(245,244,244);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(245,244,244);
+}
+
+#settings {
+  left: 30px;
+}
+
+#tools {
+  left: 25px;
+}
+
+#numberofresults {
+  position: relative;
+  top: -120px;
+  left: 170px;
+  font-size: 10px;
+}
+
+.resultheader {
+  color: rgb(33, 47, 211);
+  left: 170px;
+}
+
+.main {
+  top: -100px;
+}
+
+.results {
+  margin: 30px 0;
+  width: 50%;
+}
+
+.link {
+  color: rgb(82, 152, 104);
+  margin: 5px 0;
+}
+
+.description {
+  color: rgb(142, 142, 142);
+}
+
+.result1header, .result1headerc2 {
+  color: rgb(33, 47, 211);
+  top: 50px;
+}
+
+.result1header, .subheader_descriptions {
+  left: 200px;
+  top: 30px;
+}
+
+.result1headerc2, .subheader_descriptions2 {
+  left: 500px;
+  top: -150px;
+  padding: 0;
+}
+
+.subheader_descriptions, .subheader_descriptions2 {
+  color: rgb(142, 142, 142);
+  width: 30%;
+  margin: 10px 0;
+}
+
+.resultspost1 {
+  top: -150px;
+}
+
+#relatedsearches {
+  top: -200px;
+  font-size: 14px;
+}
+
+.relatedsearchesc1, .relatedsearchesc2 {
+    color: rgb(33, 47, 211);
+    display: block;
+    margin: 5px;
+}
+
+.relatedsearchesc1 {
+  left: 100px;
+  top: -90px;
+}
+
+.relatedsearchesc2 {
+  left: 300px;
+  top: -132px;
+}
+
+#logo-footer {
+  width: 30%;
+  left: 300px;
+}
+
+#location {
+  color: rgb(195, 197, 195);
+  top: 10px;
+}
+
+.location_links {
+  color: rgb(117, 122, 118);
+  left: 600px;
+  top: -4px;
+  z-index: 30;
+  font-size: 12px;
+}
+
+.footer-buttons a {
+  left: 220px;
+  color: rgb(117, 122, 118);
+}
